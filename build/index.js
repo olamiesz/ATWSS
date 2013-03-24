@@ -2,7 +2,7 @@
 var hogan = require('hogan.js')
   , fs    = require('fs')
   , prod  = process.argv[2] == 'production'
-  , title = 'Bootstrap'
+  , title = 'ATWSS'
 
 var layout, pages
 
@@ -32,7 +32,7 @@ pages.forEach(function (name) {
   if (context.title == 'Index') {
     context.title = title
   } else {
-    context.title += ' · ' + title
+    context.title += ' &middot; ' + title
   }
 
   page = hogan.compile(page, { sectionTags: [{o:'_i', c:'i'}] })
@@ -40,5 +40,5 @@ pages.forEach(function (name) {
     body: page
   })
 
-  fs.writeFileSync(__dirname + '/../' + name.replace(/mustache$/, 'html'), page, 'utf-8')
+  fs.writeFileSync(__dirname + '/../' + name.replace(/mustache$/, 'php'), page, 'utf-8')
 })
