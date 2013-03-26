@@ -79,69 +79,70 @@
     <!-- Docs nav
     ================================================== -->
     <div class="row">
-      <div class="span3 bs-docs-sidebar">
-        <ul class="nav nav-list bs-docs-sidenav">
-          <li><a href="#santos"><i class="icon-chevron-right"></i>Alexandre Alves Dos Santos</a></li>
-          <li><a href="#beltramello"><i class="icon-chevron-right"></i>Olga Beltramello</a></li>
-          <li><a href="#donszelmann"><i class="icon-chevron-right"></i>Mark D&ouml;nszelmann</a></li>
-          <li><a href="#mladenov"><i class="icon-chevron-right"></i>Dimitar Mladenov</a></li>
-          <li><a href="#novocaptis"><i class="icon-chevron-right"></i>NOVOCAPTIS</a></li>
-          <li><a href="#prisma"><i class="icon-chevron-right"></i>PRISMA</a></li>
-        </ul>
-      </div>
-      <div class="span9">
-      
-        <section id="santos">
-          <div class="page-header">
-            <h1>Alexandre Alves Dos Santos</h1>
-          </div>
-          
-          
-      	</section>
-      	
-        <section id="beltramello">
-          <div class="page-header">
-            <h1>Olga Beltramello</h1>
-          </div>
-          
-          
-      	</section>
-      	
-        <section id="donszelmann">
-          <div class="page-header">
-            <h1>Mark D&ouml;nszelmann</h1>
-          </div>
-          
-          
-      	</section>
-      	
-        <section id="mladenov">
-          <div class="page-header">
-            <h1>Dimitar Mladenov</h1>
-          </div>
-          
-          
-      	</section>
-      	
-        <section id="novocaptis">
-          <div class="page-header">
-            <h1>NOVOCAPTIS</h1>
-          </div>
-          
-          
-      	</section>
-      	
-        <section id="prisma">
-          <div class="page-header">
-            <h1>PRISMA</h1>
-          </div>
-          
-          
-      	</section>
-      	
-            	
-      </div>
+      <div class="span12">
+ 		<ul class="thumbnails">
+		  <li class="span4">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/200x100" alt="" src="img/Alexandre.jpeg" width="200">
+		      <h3>Alexandre Dos Santos</h3>
+		      <p>is developer of the Audio and other parts of the Web Application software 
+		      and works on the hardware for ATWSS.</p>
+		    </div>
+		  </li>
+		  
+		  <li class="span4">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/200x100" alt="" src="img/Olga.jpeg" width="200">
+		      <h3>Olga Beltramello</h3>
+		      <p>is the project leader of ATWSS and of the follow-up project 
+		      <a href="cern.ch/edusafe">EDUSAFE</a>. She is in charge of Safety in te ATLAS experiment.</p>
+		    </div>
+		  </li>
+
+		  <li class="span4">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/200x100" alt="" src="img/Novocaptis.png" width="320">
+		      <h3>Novocaptis</h3>
+		      <p>built the camera system as well as all the video handling in hardware and software.</p><br/>
+		      <a href="http://www.novocaptis.com">www.novocaptis.com</a>
+		    </div>
+		  </li>
+		</ul>
+	  </div>
     </div>
+
+    <div class="row">
+      <div class="span12">
+ 		<ul class="thumbnails">
+		  <li class="span4">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/200x100" alt="" src="img/Mark.jpeg" width="200">
+		      <h3>Mark D&ouml;nszelmann</h3>
+		      <p>is architect of the software of ATWSS and designer of the Web Application. 
+		      He is in charge of keeping the software running.</p>
+		    </div>
+		  </li>
+		  
+		  <li class="span4">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/200x100" alt="" src="img/Dimi.jpeg" width="214">
+		      <h3>Dimitar Mladenov</h3>
+		      <p>is in charge of all the hardware on ATWSS. Also handles everything else we tend to forget...</p>
+		    </div>
+		  </li>
+
+		  <li class="span4">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/200x100" alt="" src="img/Prisma.png" width="320">
+		      <h3>Prisma</h3>
+		      <p>build the PTU unit and the software for all the measurements.</p><br/>
+		      <a href="http://www.prismaelectronics.eu">www.prismaelectronics.eu</a>
+		    </div>
+		  </li>
+		</ul>
+	  </div>
+    </div>
+
 
   </div>
   
