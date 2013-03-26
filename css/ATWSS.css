@@ -1,0 +1,4 @@
+.jumbotron:after {
+    background: url("../img/Front.jpeg") repeat scroll left center transparent;
+    opacity: 0.75;
+}
