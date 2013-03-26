@@ -24,7 +24,6 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
   </head>
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
@@ -52,7 +51,7 @@
                 <a href="./equipment.php">Equipment</a>
               </li>
               <li>
-                <a href="./videos.php">Videos</a>
+                <a href="./interventions.php">Interventions</a>
               </li>
               <li>
                 <a href="./dosimeters.php">Dosimeters</a>
@@ -145,8 +144,6 @@
     <script src="assets/js/google-code-prettify/prettify.js"></script>
 
     <script src="assets/js/application.js"></script>
-
-
 
   </body>
 </html>

@@ -35,6 +35,33 @@ pages.forEach(function (name) {
     context.title += ' &middot; ' + title
   }
 
+  videoDirName = __dirname + '/../videos'
+  videoDir = fs.readdirSync(videoDirName)
+
+  context.interventions = []
+  videoDir.forEach(function (name) {
+    interventionDirName = videoDirName + '/' + name
+    if (fs.statSync(interventionDirName).isDirectory()) {
+      intervention = {
+        "id": name,
+        "videos": []
+      }
+      
+      interventionDir = fs.readdirSync(interventionDirName)
+      interventionDir.forEach(function (name) {
+    	  if ((name.match(/\.mp4$/) || name.match(/\.webm$/)) && !name.match(/^\./)) {
+    	  
+    	    videoName = interventionDirName + '/' + name;
+    	    intervention.videos.push({
+              "id": name  
+    	    })
+    	  }
+      })
+      
+      context.interventions.push(intervention)    
+    }
+  })
+
   page = hogan.compile(page, { sectionTags: [{o:'_i', c:'i'}] })
   page = layout.render(context, {
     body: page
