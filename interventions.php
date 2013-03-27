@@ -96,15 +96,15 @@
 			 		<td>2</td>
 			 		<td>none</td>
 			 		<td>
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130226-08.28.31.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130226-08.28.31.mp4.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/2/130226-08.28.31.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/2/130226-08.28.31.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130226-08.28.31.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130226-08.28.31.mp4.mp4">MP4</a> or <a href="130226-08.28.31.mp4.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/2/130226-08.28.31.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/2/130226-08.28.31.mp4">MP4</a> or <a href="videos/2/130226-08.28.31.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -117,15 +117,15 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130226-09.14.21.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130226-09.14.21.mp4.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/2/130226-09.14.21.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/2/130226-09.14.21.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130226-09.14.21.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130226-09.14.21.mp4.mp4">MP4</a> or <a href="130226-09.14.21.mp4.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/2/130226-09.14.21.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/2/130226-09.14.21.mp4">MP4</a> or <a href="videos/2/130226-09.14.21.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -144,15 +144,15 @@
 			 		<td>3</td>
 			 		<td>none</td>
 			 		<td>
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130227-08.24.26.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130227-08.24.26.mp4.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/3/130227-08.24.26.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/3/130227-08.24.26.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130227-08.24.26.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130227-08.24.26.mp4.mp4">MP4</a> or <a href="130227-08.24.26.mp4.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/3/130227-08.24.26.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/3/130227-08.24.26.mp4">MP4</a> or <a href="videos/3/130227-08.24.26.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -165,15 +165,15 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130227-08.36.05.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130227-08.36.05.mp4.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/3/130227-08.36.05.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/3/130227-08.36.05.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130227-08.36.05.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130227-08.36.05.mp4.mp4">MP4</a> or <a href="130227-08.36.05.mp4.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/3/130227-08.36.05.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/3/130227-08.36.05.mp4">MP4</a> or <a href="videos/3/130227-08.36.05.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -186,15 +186,15 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130227-10.34.17.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130227-10.34.17.mp4.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/3/130227-10.34.17.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/3/130227-10.34.17.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130227-10.34.17.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130227-10.34.17.mp4.mp4">MP4</a> or <a href="130227-10.34.17.mp4.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/3/130227-10.34.17.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/3/130227-10.34.17.mp4">MP4</a> or <a href="videos/3/130227-10.34.17.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -207,15 +207,15 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130227-11.24.17.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130227-11.24.17.mp4.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/3/130227-11.24.17.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/3/130227-11.24.17.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130227-11.24.17.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130227-11.24.17.mp4.mp4">MP4</a> or <a href="130227-11.24.17.mp4.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/3/130227-11.24.17.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/3/130227-11.24.17.mp4">MP4</a> or <a href="videos/3/130227-11.24.17.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -234,15 +234,15 @@
 			 		<td>4</td>
 			 		<td>none</td>
 			 		<td>
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130305-14.25.46.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130305-14.25.46.mp4.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/4/130305-14.25.46.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/4/130305-14.25.46.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130305-14.25.46.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130305-14.25.46.mp4.mp4">MP4</a> or <a href="130305-14.25.46.mp4.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/4/130305-14.25.46.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/4/130305-14.25.46.mp4">MP4</a> or <a href="videos/4/130305-14.25.46.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -255,15 +255,15 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130305-14.25.55.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130305-14.25.55.mp4.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/4/130305-14.25.55.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/4/130305-14.25.55.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130305-14.25.55.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130305-14.25.55.mp4.mp4">MP4</a> or <a href="130305-14.25.55.mp4.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/4/130305-14.25.55.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/4/130305-14.25.55.mp4">MP4</a> or <a href="videos/4/130305-14.25.55.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -282,15 +282,15 @@
 			 		<td>5</td>
 			 		<td>none</td>
 			 		<td>
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130307-09.00.08.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130307-09.00.08.mp4.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/5/130307-09.00.08.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/5/130307-09.00.08.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130307-09.00.08.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130307-09.00.08.mp4.mp4">MP4</a> or <a href="130307-09.00.08.mp4.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/5/130307-09.00.08.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/5/130307-09.00.08.mp4">MP4</a> or <a href="videos/5/130307-09.00.08.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -303,57 +303,15 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130307-09.00.08.webm.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130307-09.00.08.webm.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/5/130307-09.00.22.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/5/130307-09.00.22.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130307-09.00.08.webm.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130307-09.00.08.webm.mp4">MP4</a> or <a href="130307-09.00.08.webm.webm">WebM</a>.</p>
-  </object>
-</video>
-<script>
-  var v = document.getElementById("movie");
-  v.onclick = function() {
-    if (v.paused) {
-      v.play();
-    } else {
-      v.pause();
-    }
-  };
-</script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130307-09.00.22.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130307-09.00.22.mp4.mp4" />
-  <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
-    <param name="movie" value="flowplayer-3.2.1.swf" />
-    <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130307-09.00.22.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130307-09.00.22.mp4.mp4">MP4</a> or <a href="130307-09.00.22.mp4.webm">WebM</a>.</p>
-  </object>
-</video>
-<script>
-  var v = document.getElementById("movie");
-  v.onclick = function() {
-    if (v.paused) {
-      v.play();
-    } else {
-      v.pause();
-    }
-  };
-</script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130307-09.00.22.webm.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130307-09.00.22.webm.mp4" />
-  <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
-    <param name="movie" value="flowplayer-3.2.1.swf" />
-    <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130307-09.00.22.webm.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130307-09.00.22.webm.mp4">MP4</a> or <a href="130307-09.00.22.webm.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/5/130307-09.00.22.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/5/130307-09.00.22.mp4">MP4</a> or <a href="videos/5/130307-09.00.22.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -372,15 +330,15 @@
 			 		<td>6</td>
 			 		<td>none</td>
 			 		<td>
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130311-14.25.59.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130311-14.25.59.mp4.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/6/130311-14.25.59.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/6/130311-14.25.59.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130311-14.25.59.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130311-14.25.59.mp4.mp4">MP4</a> or <a href="130311-14.25.59.mp4.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/6/130311-14.25.59.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/6/130311-14.25.59.mp4">MP4</a> or <a href="videos/6/130311-14.25.59.webm">WebM</a>.</p>
   </object>
 </video>
 <script>
@@ -393,57 +351,15 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130311-14.25.59.webm.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130311-14.25.59.webm.mp4" />
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/6/130311-15.51.37.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/6/130311-15.51.37.mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130311-14.25.59.webm.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130311-14.25.59.webm.mp4">MP4</a> or <a href="130311-14.25.59.webm.webm">WebM</a>.</p>
-  </object>
-</video>
-<script>
-  var v = document.getElementById("movie");
-  v.onclick = function() {
-    if (v.paused) {
-      v.play();
-    } else {
-      v.pause();
-    }
-  };
-</script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130311-15.51.37.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130311-15.51.37.mp4.mp4" />
-  <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
-    <param name="movie" value="flowplayer-3.2.1.swf" />
-    <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130311-15.51.37.mp4.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130311-15.51.37.mp4.mp4">MP4</a> or <a href="130311-15.51.37.mp4.webm">WebM</a>.</p>
-  </object>
-</video>
-<script>
-  var v = document.getElementById("movie");
-  v.onclick = function() {
-    if (v.paused) {
-      v.play();
-    } else {
-      v.pause();
-    }
-  };
-</script>            	    	
-<video id="movie" width="320" height="240" preload controls>
-  <source src="130311-15.51.37.webm.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="130311-15.51.37.webm.mp4" />
-  <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
-    <param name="movie" value="flowplayer-3.2.1.swf" />
-    <param name="allowfullscreen" value="true" />
-    <param name="flashvars" value="config={'clip': {'url': '/130311-15.51.37.webm.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-    <p>Download video as <a href="130311-15.51.37.webm.mp4">MP4</a> or <a href="130311-15.51.37.webm.webm">WebM</a>.</p>
+    <param name="flashvars" value="config={'clip': {'url': '/videos/6/130311-15.51.37.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/6/130311-15.51.37.mp4">MP4</a> or <a href="videos/6/130311-15.51.37.webm">WebM</a>.</p>
   </object>
 </video>
 <script>

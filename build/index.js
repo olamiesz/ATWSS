@@ -35,25 +35,26 @@ pages.forEach(function (name) {
     context.title += ' &middot; ' + title
   }
 
-  videoDirName = __dirname + '/../videos'
-  videoDir = fs.readdirSync(videoDirName)
+  root = __dirname + '/../'
+  videoDirName = 'videos'
+  videoDir = fs.readdirSync(root + videoDirName)
 
   context.interventions = []
   videoDir.forEach(function (name) {
     interventionDirName = videoDirName + '/' + name
-    if (fs.statSync(interventionDirName).isDirectory()) {
+    if (fs.statSync(root + interventionDirName).isDirectory()) {
       intervention = {
         "id": name,
         "videos": []
       }
       
-      interventionDir = fs.readdirSync(interventionDirName)
+      interventionDir = fs.readdirSync(root + interventionDirName)
       interventionDir.forEach(function (name) {
-    	  if ((name.match(/\.mp4$/) || name.match(/\.webm$/)) && !name.match(/^\./)) {
+    	  if (name.match(/\.mp4$/) && !name.match(/^\./)) {
     	  
     	    videoName = interventionDirName + '/' + name;
     	    intervention.videos.push({
-              "id": name  
+              "id": videoName.replace(/\.mp4$/, '') 
     	    })
     	  }
       })
