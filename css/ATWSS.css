@@ -2,3 +2,23 @@
     background: url("../img/Front.jpeg") repeat scroll left center transparent;
     opacity: 0.75;
 }
+
+body > .navbar .brand {
+    color: #999999;
+    float: left;
+    font-weight: 200;
+    margin-left: 0px;
+    padding: 10px 20px;
+ 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.125);
+    transition: all 0.2s linear 0s;
+    line-height: 32px;
+}
+
+body > .navbar .brand img {
+	margin-right: 10px;
+}
+
+body > .navbar li {
+    font-size: 16px;
+    line-height: 32px;
+}

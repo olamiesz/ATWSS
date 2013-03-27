@@ -24,7 +24,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+                           <link rel="icon" type="image/png" href="img/favicon.png">
   </head>
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
@@ -39,25 +39,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="./index.php">ATWSS</a>
+          <a class="brand" href="./index.php"><img src="img/favicon.png">ATWSS</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li>
-                <a href="./">ATWSS</a>
-              </li>
-              <li>
+              <li class="">
                 <a href="./introduction.php">Introduction</a>
               </li>
-              <li>
+              <li class="">
                 <a href="./equipment.php">Equipment</a>
               </li>
-              <li>
+              <li class="[object Object],[object Object],[object Object],[object Object],[object Object]">
                 <a href="./interventions.php">Interventions</a>
               </li>
-              <li>
+              <li class="">
                 <a href="./dosimeters.php">Dosimeters</a>
               </li>
-              <li>
+              <li class="">
                 <a href="./people.php">People</a>
               </li>
             </ul>
@@ -93,8 +90,8 @@
 	
 			<tbody>
 				<tr>
-			 		<td>2</td>
-			 		<td>none</td>
+			 		<td>Intervention 2</td>
+			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=2">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls>
   <source src="videos/2/130226-08.28.31.webm" type="video/webm; codecs=vp8,vorbis" />
@@ -141,8 +138,8 @@
 			 		</td>
 			 	</tr>
 				<tr>
-			 		<td>3</td>
-			 		<td>none</td>
+			 		<td>Intervention 3</td>
+			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=3">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls>
   <source src="videos/3/130227-08.24.26.webm" type="video/webm; codecs=vp8,vorbis" />
@@ -231,8 +228,8 @@
 			 		</td>
 			 	</tr>
 				<tr>
-			 		<td>4</td>
-			 		<td>none</td>
+			 		<td>Intervention 4</td>
+			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=4">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls>
   <source src="videos/4/130305-14.25.46.webm" type="video/webm; codecs=vp8,vorbis" />
@@ -279,8 +276,8 @@
 			 		</td>
 			 	</tr>
 				<tr>
-			 		<td>5</td>
-			 		<td>none</td>
+			 		<td>Intervention 5</td>
+			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=5">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls>
   <source src="videos/5/130307-09.00.08.webm" type="video/webm; codecs=vp8,vorbis" />
@@ -327,8 +324,8 @@
 			 		</td>
 			 	</tr>
 				<tr>
-			 		<td>6</td>
-			 		<td>none</td>
+			 		<td>Intervention 6</td>
+			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=6">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls>
   <source src="videos/6/130311-14.25.59.webm" type="video/webm; codecs=vp8,vorbis" />
