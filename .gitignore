@@ -5,7 +5,7 @@
 /.buildpath
 /.project
 /.settings
-/web.config
+web.config
 /Global.asax
 /videos
 
