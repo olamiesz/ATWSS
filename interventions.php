@@ -42,12 +42,14 @@
           <a class="brand" href="./index.php"><img src="img/favicon.png">ATWSS</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
+            <!--
               <li class="">
                 <a href="./introduction.php">Introduction</a>
               </li>
               <li class="">
                 <a href="./equipment.php">Equipment</a>
               </li>
+            -->
               <li class="[object Object],[object Object],[object Object],[object Object],[object Object]">
                 <a href="./interventions.php">Interventions</a>
               </li>
@@ -97,7 +99,7 @@
 	
 			<tbody>
 				<tr>
-			 		<td>Intervention 2</td>
+			 		<td>2</td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=2">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls>
@@ -145,7 +147,7 @@
 			 		</td>
 			 	</tr>
 				<tr>
-			 		<td>Intervention 3</td>
+			 		<td>3</td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=3">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls>
@@ -235,7 +237,7 @@
 			 		</td>
 			 	</tr>
 				<tr>
-			 		<td>Intervention 4</td>
+			 		<td>4</td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=4">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls>
@@ -283,7 +285,7 @@
 			 		</td>
 			 	</tr>
 				<tr>
-			 		<td>Intervention 5</td>
+			 		<td>5</td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=5">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls>
@@ -331,7 +333,7 @@
 			 		</td>
 			 	</tr>
 				<tr>
-			 		<td>Intervention 6</td>
+			 		<td>6</td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=6">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls>

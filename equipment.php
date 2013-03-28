@@ -42,12 +42,14 @@
           <a class="brand" href="./index.php"><img src="img/favicon.png">ATWSS</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
+            <!--
               <li class="">
                 <a href="./introduction.php">Introduction</a>
               </li>
               <li class="active">
                 <a href="./equipment.php">Equipment</a>
               </li>
+            -->
               <li class="[object Object],[object Object],[object Object],[object Object],[object Object]">
                 <a href="./interventions.php">Interventions</a>
               </li>
