@@ -104,7 +104,7 @@
 			 		<td>
 <video id="movie" width="320" height="240" controls>
   <source src="videos/2/130226-08.28.31.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/2/130226-08.28.31.mp4" />
+  <source src="videos/2/130226-08.28.31.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -125,7 +125,7 @@
 </script>            	    	
 <video id="movie" width="320" height="240" controls>
   <source src="videos/2/130226-09.14.21.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/2/130226-09.14.21.mp4" />
+  <source src="videos/2/130226-09.14.21.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -152,7 +152,7 @@
 			 		<td>
 <video id="movie" width="320" height="240" controls>
   <source src="videos/3/130227-08.24.26.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/3/130227-08.24.26.mp4" />
+  <source src="videos/3/130227-08.24.26.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -173,7 +173,7 @@
 </script>            	    	
 <video id="movie" width="320" height="240" controls>
   <source src="videos/3/130227-08.36.05.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/3/130227-08.36.05.mp4" />
+  <source src="videos/3/130227-08.36.05.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -194,7 +194,7 @@
 </script>            	    	
 <video id="movie" width="320" height="240" controls>
   <source src="videos/3/130227-10.34.17.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/3/130227-10.34.17.mp4" />
+  <source src="videos/3/130227-10.34.17.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -215,7 +215,7 @@
 </script>            	    	
 <video id="movie" width="320" height="240" controls>
   <source src="videos/3/130227-11.24.17.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/3/130227-11.24.17.mp4" />
+  <source src="videos/3/130227-11.24.17.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -242,7 +242,7 @@
 			 		<td>
 <video id="movie" width="320" height="240" controls>
   <source src="videos/4/130305-14.25.46.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/4/130305-14.25.46.mp4" />
+  <source src="videos/4/130305-14.25.46.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -263,7 +263,7 @@
 </script>            	    	
 <video id="movie" width="320" height="240" controls>
   <source src="videos/4/130305-14.25.55.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/4/130305-14.25.55.mp4" />
+  <source src="videos/4/130305-14.25.55.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -290,7 +290,7 @@
 			 		<td>
 <video id="movie" width="320" height="240" controls>
   <source src="videos/5/130307-09.00.08.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/5/130307-09.00.08.mp4" />
+  <source src="videos/5/130307-09.00.08.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -311,7 +311,7 @@
 </script>            	    	
 <video id="movie" width="320" height="240" controls>
   <source src="videos/5/130307-09.00.22.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/5/130307-09.00.22.mp4" />
+  <source src="videos/5/130307-09.00.22.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -338,7 +338,7 @@
 			 		<td>
 <video id="movie" width="320" height="240" controls>
   <source src="videos/6/130311-14.25.59.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/6/130311-14.25.59.mp4" />
+  <source src="videos/6/130311-14.25.59.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
@@ -359,7 +359,7 @@
 </script>            	    	
 <video id="movie" width="320" height="240" controls>
   <source src="videos/6/130311-15.51.37.webm" type="video/webm; codecs=vp8,vorbis" />
-  <source src="videos/6/130311-15.51.37.mp4" />
+  <source src="videos/6/130311-15.51.37.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
     data="flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
