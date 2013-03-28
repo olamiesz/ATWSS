@@ -22,3 +22,7 @@ body > .navbar li {
     font-size: 16px;
     line-height: 32px;
 }
+
+.navbar .nav .dropdown-toggle .caret {
+	margin-top: 14px;
+}

@@ -51,8 +51,15 @@
               <li class="[object Object],[object Object],[object Object],[object Object],[object Object]">
                 <a href="./interventions.php">Interventions</a>
               </li>
-              <li class="">
-                <a href="./dosimeters.php">Dosimeters</a>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Dosimeters
+				  <b class="caret"></b>
+				</a>
+                <ul class="dropdown-menu">
+                  <li><a href="./dosimeters.php">All Dosimeters</a></li>
+                  <li><a href="http://dimi.com">Good Old 'dimi.com'</a></li>
+                </ul>
               </li>
               <li class="active">
                 <a href="./people.php">People</a>
