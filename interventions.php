@@ -50,7 +50,7 @@
                 <a href="./equipment.php">Equipment</a>
               </li>
             -->
-              <li class="[object Object],[object Object],[object Object],[object Object],[object Object]">
+              <li class="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]">
                 <a href="./interventions.php">Interventions</a>
               </li>
               <li class="dropdown">
@@ -98,6 +98,222 @@
 			</thead>
 	
 			<tbody>
+				<tr>
+			 		<td>1</td>
+			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=1">Plots</a></td>
+			 		<td>
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/1/130221-09.34.24.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/1/130221-09.34.24.mp4" type="video/mp4" />
+  <object width="320" height="240" type="application/x-shockwave-flash"
+    data="flowplayer-3.2.1.swf">
+    <param name="movie" value="flowplayer-3.2.1.swf" />
+    <param name="allowfullscreen" value="true" />
+    <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-09.34.24.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/1/130221-09.34.24.mp4">MP4</a> or <a href="videos/1/130221-09.34.24.webm">WebM</a>.</p>
+  </object>
+</video>
+<script>
+  var v = document.getElementById("movie");
+  v.onclick = function() {
+    if (v.paused) {
+      v.play();
+    } else {
+      v.pause();
+    }
+  };
+</script>            	    	
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/1/130221-10.04.06.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/1/130221-10.04.06.mp4" type="video/mp4" />
+  <object width="320" height="240" type="application/x-shockwave-flash"
+    data="flowplayer-3.2.1.swf">
+    <param name="movie" value="flowplayer-3.2.1.swf" />
+    <param name="allowfullscreen" value="true" />
+    <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-10.04.06.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/1/130221-10.04.06.mp4">MP4</a> or <a href="videos/1/130221-10.04.06.webm">WebM</a>.</p>
+  </object>
+</video>
+<script>
+  var v = document.getElementById("movie");
+  v.onclick = function() {
+    if (v.paused) {
+      v.play();
+    } else {
+      v.pause();
+    }
+  };
+</script>            	    	
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/1/130221-11.02.45.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/1/130221-11.02.45.mp4" type="video/mp4" />
+  <object width="320" height="240" type="application/x-shockwave-flash"
+    data="flowplayer-3.2.1.swf">
+    <param name="movie" value="flowplayer-3.2.1.swf" />
+    <param name="allowfullscreen" value="true" />
+    <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-11.02.45.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/1/130221-11.02.45.mp4">MP4</a> or <a href="videos/1/130221-11.02.45.webm">WebM</a>.</p>
+  </object>
+</video>
+<script>
+  var v = document.getElementById("movie");
+  v.onclick = function() {
+    if (v.paused) {
+      v.play();
+    } else {
+      v.pause();
+    }
+  };
+</script>            	    	
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/1/130221-11.59.05.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/1/130221-11.59.05.mp4" type="video/mp4" />
+  <object width="320" height="240" type="application/x-shockwave-flash"
+    data="flowplayer-3.2.1.swf">
+    <param name="movie" value="flowplayer-3.2.1.swf" />
+    <param name="allowfullscreen" value="true" />
+    <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-11.59.05.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/1/130221-11.59.05.mp4">MP4</a> or <a href="videos/1/130221-11.59.05.webm">WebM</a>.</p>
+  </object>
+</video>
+<script>
+  var v = document.getElementById("movie");
+  v.onclick = function() {
+    if (v.paused) {
+      v.play();
+    } else {
+      v.pause();
+    }
+  };
+</script>            	    	
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/1/130221-12.31.13.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/1/130221-12.31.13.mp4" type="video/mp4" />
+  <object width="320" height="240" type="application/x-shockwave-flash"
+    data="flowplayer-3.2.1.swf">
+    <param name="movie" value="flowplayer-3.2.1.swf" />
+    <param name="allowfullscreen" value="true" />
+    <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-12.31.13.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/1/130221-12.31.13.mp4">MP4</a> or <a href="videos/1/130221-12.31.13.webm">WebM</a>.</p>
+  </object>
+</video>
+<script>
+  var v = document.getElementById("movie");
+  v.onclick = function() {
+    if (v.paused) {
+      v.play();
+    } else {
+      v.pause();
+    }
+  };
+</script>            	    	
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/1/130221-14.38.06.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/1/130221-14.38.06.mp4" type="video/mp4" />
+  <object width="320" height="240" type="application/x-shockwave-flash"
+    data="flowplayer-3.2.1.swf">
+    <param name="movie" value="flowplayer-3.2.1.swf" />
+    <param name="allowfullscreen" value="true" />
+    <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-14.38.06.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/1/130221-14.38.06.mp4">MP4</a> or <a href="videos/1/130221-14.38.06.webm">WebM</a>.</p>
+  </object>
+</video>
+<script>
+  var v = document.getElementById("movie");
+  v.onclick = function() {
+    if (v.paused) {
+      v.play();
+    } else {
+      v.pause();
+    }
+  };
+</script>            	    	
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/1/130221-14.43.29.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/1/130221-14.43.29.mp4" type="video/mp4" />
+  <object width="320" height="240" type="application/x-shockwave-flash"
+    data="flowplayer-3.2.1.swf">
+    <param name="movie" value="flowplayer-3.2.1.swf" />
+    <param name="allowfullscreen" value="true" />
+    <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-14.43.29.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/1/130221-14.43.29.mp4">MP4</a> or <a href="videos/1/130221-14.43.29.webm">WebM</a>.</p>
+  </object>
+</video>
+<script>
+  var v = document.getElementById("movie");
+  v.onclick = function() {
+    if (v.paused) {
+      v.play();
+    } else {
+      v.pause();
+    }
+  };
+</script>            	    	
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/1/130221-15.23.18.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/1/130221-15.23.18.mp4" type="video/mp4" />
+  <object width="320" height="240" type="application/x-shockwave-flash"
+    data="flowplayer-3.2.1.swf">
+    <param name="movie" value="flowplayer-3.2.1.swf" />
+    <param name="allowfullscreen" value="true" />
+    <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-15.23.18.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/1/130221-15.23.18.mp4">MP4</a> or <a href="videos/1/130221-15.23.18.webm">WebM</a>.</p>
+  </object>
+</video>
+<script>
+  var v = document.getElementById("movie");
+  v.onclick = function() {
+    if (v.paused) {
+      v.play();
+    } else {
+      v.pause();
+    }
+  };
+</script>            	    	
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/1/130221-15.37.30.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/1/130221-15.37.30.mp4" type="video/mp4" />
+  <object width="320" height="240" type="application/x-shockwave-flash"
+    data="flowplayer-3.2.1.swf">
+    <param name="movie" value="flowplayer-3.2.1.swf" />
+    <param name="allowfullscreen" value="true" />
+    <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-15.37.30.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/1/130221-15.37.30.mp4">MP4</a> or <a href="videos/1/130221-15.37.30.webm">WebM</a>.</p>
+  </object>
+</video>
+<script>
+  var v = document.getElementById("movie");
+  v.onclick = function() {
+    if (v.paused) {
+      v.play();
+    } else {
+      v.pause();
+    }
+  };
+</script>            	    	
+<video id="movie" width="320" height="240" controls>
+  <source src="videos/1/130221-15.45.43.webm" type="video/webm; codecs=vp8,vorbis" />
+  <source src="videos/1/130221-15.45.43.mp4" type="video/mp4" />
+  <object width="320" height="240" type="application/x-shockwave-flash"
+    data="flowplayer-3.2.1.swf">
+    <param name="movie" value="flowplayer-3.2.1.swf" />
+    <param name="allowfullscreen" value="true" />
+    <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-15.45.43.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+    <p>Download video as <a href="videos/1/130221-15.45.43.mp4">MP4</a> or <a href="videos/1/130221-15.45.43.webm">WebM</a>.</p>
+  </object>
+</video>
+<script>
+  var v = document.getElementById("movie");
+  v.onclick = function() {
+    if (v.paused) {
+      v.play();
+    } else {
+      v.pause();
+    }
+  };
+</script>            	    	
+			 		</td>
+			 	</tr>
 				<tr>
 			 		<td>2</td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=2">Plots</a></td>
@@ -393,15 +609,13 @@
     ================================================== -->
     <footer class="footer">
       <div class="container">
-        <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <p>Copyright&copy; 2013 CERN</p>
         <ul class="footer-links">
-          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
+          <li><a href="http://cern.ch">CERN</a></li>
           <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Issues</a></li>
+          <li><a href="http://cern.ch/atlas">ATLAS</a></li>
           <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twitter/bootstrap/blob/master/CHANGELOG.md">Changelog</a></li>
+          <li><a href="http://cern.ch/ATWSS">ATWSS</a></li>
         </ul>
       </div>
     </footer>
