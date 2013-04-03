@@ -106,7 +106,7 @@
   <source src="videos/1/130221-09.34.24.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-09.34.24.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-09.34.24.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -127,7 +127,7 @@
   <source src="videos/1/130221-10.04.06.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-10.04.06.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-10.04.06.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -148,7 +148,7 @@
   <source src="videos/1/130221-11.02.45.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-11.02.45.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-11.02.45.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -169,7 +169,7 @@
   <source src="videos/1/130221-11.59.05.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-11.59.05.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-11.59.05.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -190,7 +190,7 @@
   <source src="videos/1/130221-12.31.13.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-12.31.13.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-12.31.13.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -211,7 +211,7 @@
   <source src="videos/1/130221-14.38.06.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-14.38.06.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-14.38.06.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -232,7 +232,7 @@
   <source src="videos/1/130221-14.43.29.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-14.43.29.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-14.43.29.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -253,7 +253,7 @@
   <source src="videos/1/130221-15.23.18.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-15.23.18.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-15.23.18.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -274,7 +274,7 @@
   <source src="videos/1/130221-15.37.30.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-15.37.30.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-15.37.30.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -295,7 +295,7 @@
   <source src="videos/1/130221-15.45.43.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-15.45.43.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/1/130221-15.45.43.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -322,7 +322,7 @@
   <source src="videos/2/130226-08.28.31.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/2/130226-08.28.31.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/2/130226-08.28.31.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -343,7 +343,7 @@
   <source src="videos/2/130226-09.14.21.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/2/130226-09.14.21.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/2/130226-09.14.21.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -370,7 +370,7 @@
   <source src="videos/3/130227-08.24.26.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/3/130227-08.24.26.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/3/130227-08.24.26.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -391,7 +391,7 @@
   <source src="videos/3/130227-08.36.05.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/3/130227-08.36.05.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/3/130227-08.36.05.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -412,7 +412,7 @@
   <source src="videos/3/130227-10.34.17.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/3/130227-10.34.17.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/3/130227-10.34.17.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -433,7 +433,7 @@
   <source src="videos/3/130227-11.24.17.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/3/130227-11.24.17.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/3/130227-11.24.17.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -460,7 +460,7 @@
   <source src="videos/4/130305-14.25.46.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/4/130305-14.25.46.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/4/130305-14.25.46.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -481,7 +481,7 @@
   <source src="videos/4/130305-14.25.55.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/4/130305-14.25.55.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/4/130305-14.25.55.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -508,7 +508,7 @@
   <source src="videos/5/130307-09.00.08.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/5/130307-09.00.08.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/5/130307-09.00.08.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -529,7 +529,7 @@
   <source src="videos/5/130307-09.00.22.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/5/130307-09.00.22.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/5/130307-09.00.22.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -556,7 +556,7 @@
   <source src="videos/6/130311-14.25.59.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/6/130311-14.25.59.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/6/130311-14.25.59.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
@@ -577,7 +577,7 @@
   <source src="videos/6/130311-15.51.37.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/6/130311-15.51.37.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
-    data="flowplayer-3.2.1.swf">
+    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
     <param name="movie" value="flowplayer-3.2.1.swf" />
     <param name="allowfullscreen" value="true" />
     <param name="flashvars" value="config={'clip': {'url': '/videos/6/130311-15.51.37.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
