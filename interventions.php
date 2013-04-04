@@ -59,7 +59,12 @@
 				  <b class="caret"></b>
 				</a>
                 <ul class="dropdown-menu">
-                  <li><a href="./dosimeters.php">All Dosimeters</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=1">Intervention 1</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=2">Intervention 2</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=3">Intervention 3</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=4">Intervention 4</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=5">Intervention 5</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=6">Intervention 6</a></li>
                   <li><a href="http://dimi.com">Good Old 'dimi.com'</a></li>
                 </ul>
               </li>
@@ -121,7 +126,7 @@ oci_close($conn);
 			 		<td>1</td>
 			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][1-1]) ?></td>
 			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][1-1])) ?></td>
-			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=1">Plots</a></td>
+			 		<td><a href="./dosimeters.php?InterventionID=1">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-09.34.24.webm" type="video/webm; codecs=vp8,vorbis" />
@@ -339,7 +344,7 @@ oci_close($conn);
 			 		<td>2</td>
 			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][2-1]) ?></td>
 			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][2-1])) ?></td>
-			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=2">Plots</a></td>
+			 		<td><a href="./dosimeters.php?InterventionID=2">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/2/130226-08.28.31.webm" type="video/webm; codecs=vp8,vorbis" />
@@ -389,7 +394,7 @@ oci_close($conn);
 			 		<td>3</td>
 			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][3-1]) ?></td>
 			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][3-1])) ?></td>
-			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=3">Plots</a></td>
+			 		<td><a href="./dosimeters.php?InterventionID=3">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/3/130227-08.24.26.webm" type="video/webm; codecs=vp8,vorbis" />
@@ -481,7 +486,7 @@ oci_close($conn);
 			 		<td>4</td>
 			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][4-1]) ?></td>
 			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][4-1])) ?></td>
-			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=4">Plots</a></td>
+			 		<td><a href="./dosimeters.php?InterventionID=4">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/4/130305-14.25.46.webm" type="video/webm; codecs=vp8,vorbis" />
@@ -531,7 +536,7 @@ oci_close($conn);
 			 		<td>5</td>
 			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][5-1]) ?></td>
 			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][5-1])) ?></td>
-			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=5">Plots</a></td>
+			 		<td><a href="./dosimeters.php?InterventionID=5">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/5/130307-09.00.08.webm" type="video/webm; codecs=vp8,vorbis" />
@@ -581,7 +586,7 @@ oci_close($conn);
 			 		<td>6</td>
 			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][6-1]) ?></td>
 			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][6-1])) ?></td>
-			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=6">Plots</a></td>
+			 		<td><a href="./dosimeters.php?InterventionID=6">Plots</a></td>
 			 		<td>
 <video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/6/130311-14.25.59.webm" type="video/webm; codecs=vp8,vorbis" />

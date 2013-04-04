@@ -48,7 +48,7 @@ oci_close($conn);
 			 		<td>{{id}}</td>
 			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][{{id}}-1]) ?></td>
 			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][{{id}}-1])) ?></td>
-			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID={{id}}">Plots</a></td>
+			 		<td><a href="./dosimeters.php?InterventionID={{id}}">Plots</a></td>
 			 		<td>
             	    	{{#videos}}
 <video id="movie" width="320" height="240" controls muted preload="metadata">

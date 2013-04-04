@@ -3,7 +3,7 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>Dosimeters</h1>
-    <p class="lead">Recorded dosimeter values of dosimeters in ATLAS</p>
+    <p class="lead">Recorded dosimeter values of interventions in ATLAS</p>
   </div>
 </header>
 
@@ -12,7 +12,9 @@
     <!-- Docs nav
     ================================================== -->
     <div class="row">
-		<?php readfile('https://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php'); ?>
+	<?php readfile('https://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php'.
+        (array_key_exists('InterventionID', $_GET) ? '?InterventionID='.$_GET['InterventionID'] : '')); 
+        ?>
     </div>
 
   </div>

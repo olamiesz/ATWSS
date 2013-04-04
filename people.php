@@ -59,7 +59,12 @@
 				  <b class="caret"></b>
 				</a>
                 <ul class="dropdown-menu">
-                  <li><a href="./dosimeters.php">All Dosimeters</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=1">Intervention 1</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=2">Intervention 2</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=3">Intervention 3</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=4">Intervention 4</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=5">Intervention 5</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=6">Intervention 6</a></li>
                   <li><a href="http://dimi.com">Good Old 'dimi.com'</a></li>
                 </ul>
               </li>

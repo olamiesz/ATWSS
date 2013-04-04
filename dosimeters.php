@@ -59,7 +59,12 @@
 				  <b class="caret"></b>
 				</a>
                 <ul class="dropdown-menu">
-                  <li><a href="./dosimeters.php">All Dosimeters</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=1">Intervention 1</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=2">Intervention 2</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=3">Intervention 3</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=4">Intervention 4</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=5">Intervention 5</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=6">Intervention 6</a></li>
                   <li><a href="http://dimi.com">Good Old 'dimi.com'</a></li>
                 </ul>
               </li>
@@ -77,7 +82,7 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>Dosimeters</h1>
-    <p class="lead">Recorded dosimeter values of dosimeters in ATLAS</p>
+    <p class="lead">Recorded dosimeter values of interventions in ATLAS</p>
   </div>
 </header>
 
@@ -86,7 +91,9 @@
     <!-- Docs nav
     ================================================== -->
     <div class="row">
-		<?php readfile('https://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php'); ?>
+	<?php readfile('https://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php'.
+        (array_key_exists('InterventionID', $_GET) ? '?InterventionID='.$_GET['InterventionID'] : '')); 
+        ?>
     </div>
 
   </div>
