@@ -1,3 +1,20 @@
+<?php
+
+require_once('config/oracle.php');
+
+date_default_timezone_set('Europe/Berlin');
+
+$conn = oci_connect($conf['user'], $conf['password'], $conf['host']) or die(oci_error());
+
+$sql = oci_parse($conn, "select * from view_interventions");
+oci_execute($sql) or die(oci_error($sql));
+$nrows = oci_fetch_all($sql, $intervention);
+
+oci_free_statement($sql);
+oci_close($conn);
+
+?>
+
 <!-- Subhead
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
@@ -17,7 +34,9 @@
 		<table class="table table-striped">
 			<thead>
 			<tr>
-				<th>Intervention</th>
+				<th>No</th>
+				<th>Title</th>
+				<th>Start Time</th>
 				<th>Dosimeters</th>
 				<th>Videos</th>
 			</tr>
@@ -27,10 +46,12 @@
 				{{#interventions}}
 				<tr>
 			 		<td>{{id}}</td>
+			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][{{id}}-1]) ?></td>
+			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][{{id}}-1])) ?></td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID={{id}}">Plots</a></td>
 			 		<td>
             	    	{{#videos}}
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="{{id}}.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="{{id}}.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"

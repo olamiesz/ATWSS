@@ -72,6 +72,23 @@
       </div>
     </div>
 
+<?php
+
+require_once('config/oracle.php');
+
+date_default_timezone_set('Europe/Berlin');
+
+$conn = oci_connect($conf['user'], $conf['password'], $conf['host']) or die(oci_error());
+
+$sql = oci_parse($conn, "select * from view_interventions");
+oci_execute($sql) or die(oci_error($sql));
+$nrows = oci_fetch_all($sql, $intervention);
+
+oci_free_statement($sql);
+oci_close($conn);
+
+?>
+
 <!-- Subhead
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
@@ -91,7 +108,9 @@
 		<table class="table table-striped">
 			<thead>
 			<tr>
-				<th>Intervention</th>
+				<th>No</th>
+				<th>Title</th>
+				<th>Start Time</th>
 				<th>Dosimeters</th>
 				<th>Videos</th>
 			</tr>
@@ -100,9 +119,11 @@
 			<tbody>
 				<tr>
 			 		<td>1</td>
+			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][1-1]) ?></td>
+			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][1-1])) ?></td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=1">Plots</a></td>
 			 		<td>
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-09.34.24.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-09.34.24.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -123,7 +144,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-10.04.06.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-10.04.06.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -144,7 +165,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-11.02.45.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-11.02.45.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -165,7 +186,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-11.59.05.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-11.59.05.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -186,7 +207,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-12.31.13.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-12.31.13.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -207,7 +228,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-14.38.06.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-14.38.06.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -228,7 +249,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-14.43.29.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-14.43.29.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -249,7 +270,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-15.23.18.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-15.23.18.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -270,7 +291,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-15.37.30.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-15.37.30.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -291,7 +312,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/1/130221-15.45.43.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/1/130221-15.45.43.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -316,9 +337,11 @@
 			 	</tr>
 				<tr>
 			 		<td>2</td>
+			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][2-1]) ?></td>
+			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][2-1])) ?></td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=2">Plots</a></td>
 			 		<td>
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/2/130226-08.28.31.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/2/130226-08.28.31.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -339,7 +362,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/2/130226-09.14.21.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/2/130226-09.14.21.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -364,9 +387,11 @@
 			 	</tr>
 				<tr>
 			 		<td>3</td>
+			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][3-1]) ?></td>
+			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][3-1])) ?></td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=3">Plots</a></td>
 			 		<td>
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/3/130227-08.24.26.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/3/130227-08.24.26.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -387,7 +412,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/3/130227-08.36.05.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/3/130227-08.36.05.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -408,7 +433,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/3/130227-10.34.17.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/3/130227-10.34.17.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -429,7 +454,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/3/130227-11.24.17.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/3/130227-11.24.17.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -454,9 +479,11 @@
 			 	</tr>
 				<tr>
 			 		<td>4</td>
+			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][4-1]) ?></td>
+			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][4-1])) ?></td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=4">Plots</a></td>
 			 		<td>
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/4/130305-14.25.46.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/4/130305-14.25.46.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -477,7 +504,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/4/130305-14.25.55.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/4/130305-14.25.55.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -502,9 +529,11 @@
 			 	</tr>
 				<tr>
 			 		<td>5</td>
+			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][5-1]) ?></td>
+			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][5-1])) ?></td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=5">Plots</a></td>
 			 		<td>
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/5/130307-09.00.08.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/5/130307-09.00.08.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -525,7 +554,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/5/130307-09.00.22.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/5/130307-09.00.22.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -550,9 +579,11 @@
 			 	</tr>
 				<tr>
 			 		<td>6</td>
+			 		<td><?php echo str_replace(' ','&nbsp;',$intervention['NAME'][6-1]) ?></td>
+			 		<td><?php echo str_replace(' ','&nbsp;',date("D, d M Y H:i", $intervention['UNIX_START'][6-1])) ?></td>
 			 		<td><a href="http://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php?InterventionID=6">Plots</a></td>
 			 		<td>
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/6/130311-14.25.59.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/6/130311-14.25.59.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
@@ -573,7 +604,7 @@
     }
   };
 </script>            	    	
-<video id="movie" width="320" height="240" controls>
+<video id="movie" width="320" height="240" controls muted preload="metadata">
   <source src="videos/6/130311-15.51.37.webm" type="video/webm; codecs=vp8,vorbis" />
   <source src="videos/6/130311-15.51.37.mp4" type="video/mp4" />
   <object width="320" height="240" type="application/x-shockwave-flash"
