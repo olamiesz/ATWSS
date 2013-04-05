@@ -59,6 +59,7 @@
 				  <b class="caret"></b>
 				</a>
                 <ul class="dropdown-menu">
+                  <li><a href="./dosimeters.php">Today (all)</a></li>
                   <li><a href="./dosimeters.php?InterventionID=1">Intervention 1</a></li>
                   <li><a href="./dosimeters.php?InterventionID=2">Intervention 2</a></li>
                   <li><a href="./dosimeters.php?InterventionID=3">Intervention 3</a></li>
