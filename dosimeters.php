@@ -66,6 +66,7 @@
                   <li><a href="./dosimeters.php?InterventionID=4">Intervention 4</a></li>
                   <li><a href="./dosimeters.php?InterventionID=5">Intervention 5</a></li>
                   <li><a href="./dosimeters.php?InterventionID=6">Intervention 6</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=7">Intervention 7</a></li>
                   <li><a href="http://dimi.com">Good Old 'dimi.com'</a></li>
                 </ul>
               </li>
