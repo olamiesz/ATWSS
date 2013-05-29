@@ -8,5 +8,7 @@
 # Server
 source:       ./docs
 destination:  ./_site
+exclude:      ['videos']
+
 port:         9001
 url:          http://localhost:9001
