@@ -1,0 +1,49 @@
+<!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.php"><img src="img/favicon.png">ATWSS</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+            <!--
+              <li{% if page.slug == "getting-started" %} class="active"{% endif %}>
+                <a href="./introduction.php">Introduction</a>
+              </li>
+              <li{% if page.slug == "getting-started" %} class="active"{% endif %}>
+                <a href="./equipment.php">Equipment</a>
+              </li>
+            -->
+              <li{% if page.slug == "getting-started" %} class="active"{% endif %}>
+                <a href="./interventions.php">Interventions</a>
+              </li>
+              <li{% if page.slug == "getting-started" %} class="active"{% endif %}>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Dosimeters
+				  <b class="caret"></b>
+				</a>
+                <ul class="dropdown-menu">
+                  <li><a href="./dosimeters.php">Today (all)</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=1">Intervention 1</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=2">Intervention 2</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=3">Intervention 3</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=4">Intervention 4</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=5">Intervention 5</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=6">Intervention 6</a></li>
+                  <li><a href="./dosimeters.php?InterventionID=7">Intervention 7</a></li>
+                  <li><a href="http://dimi.com">Good Old 'dimi.com'</a></li>
+                </ul>
+              </li>
+              <li{% if page.slug == "people" %} class="active"{% endif %}>
+                <a href="./people.php">People</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
