@@ -1,0 +1,23 @@
+{% if interventions %}
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>No</th>
+			<th>Title</th>
+			<th>Start Time</th>
+			<th>Dosimeters</th>
+			<th>Videos</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for intervention in interventions %}
+		<tr>
+			<td>{{ intervention.name }}</td>
+			<td>{{ intervention.title }}</td>
+			<td>{{ intervention.time }}</td>
+			<td>{{ intervention.dosimeters }}</td>
+			<td>{{ intervention.videos }}</td>
+		</tr> {% endfor %}
+	</tbody>
+</table>
+{% endif %}
