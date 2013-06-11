@@ -44,8 +44,14 @@ body>.navbar .brand:hover {
 		rgba(255, 255, 255, .4);
 }
 
-.navbar .nav .dropdown-toggle .caret {
-	margin-top: 14px;
+.nav .caret {
+    border-bottom-color: #999999;
+    border-top-color: #999999;
+}
+
+.nav a:hover .caret {
+    border-bottom-color: #FFFFFF;
+    border-top-color: #FFFFFF;
 }
 
 /* Jumbotrons
