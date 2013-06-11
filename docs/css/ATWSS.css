@@ -1,9 +1,26 @@
 .jumbotron:after {
     background: url("../img/Front.jpeg") repeat scroll left center transparent;
     opacity: 0.75;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-body > .navbar .brand {
+.jumbotron {
+   background: linear-gradient(45deg, #020031 0%, #6D3353 100%) repeat scroll 0 0 transparent;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
+    color: #FFFFFF;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
+}
+
+body > .navbar .navbar-brand {
     color: #999999;
     float: left;
     font-weight: 200;
@@ -14,7 +31,7 @@ body > .navbar .brand {
     line-height: 32px;
 }
 
-body > .navbar .brand img {
+body > .navbar .navbar-brand img {
 	margin-right: 10px;
 }
 

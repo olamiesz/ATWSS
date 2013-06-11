@@ -1,16 +1,17 @@
 <!-- Navbar
     ================================================== -->
     <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
         <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="./index.php"><img src="img/favicon.png">ATWSS</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
+
+          <a class="navbar-brand" href="./index.php"><img src="img/favicon.png">ATWSS</a>
+
+          <div class="nav-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
             <!--
               <li{% if page.slug == "introduction" %} class="active"{% endif %}>
                 <a href="./introduction.php">Introduction</a>
@@ -45,5 +46,4 @@
             </ul>
           </div>
         </div>
-      </div>
     </div>
