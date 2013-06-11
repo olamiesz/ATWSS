@@ -6,16 +6,7 @@ slug: people
 ---
 
     <div class="row">
-		  <div class="col-lg-3">
-		    <div class="thumbnail">
-		      <img data-src="holder.js/200x100" alt="" src="img/Alexandre.jpeg" width="150">
-		      <h3>Alexandre Dos Santos</h3>
-		      <p>is developer of the Audio and other parts of the Web Application software 
-		      and works on the hardware for ATWSS.</p>
-		    </div>
-		  </div>
-		  
-		  <div class="col-lg-3">
+		  <div class="col-lg-2">
 		    <div class="thumbnail">
 		      <img data-src="holder.js/200x100" alt="" src="img/Olga.jpeg" width="150">
 		      <h3>Olga Beltramello</h3>
@@ -24,7 +15,16 @@ slug: people
 		    </div>
 		  </div>
 
-		  <div class="col-lg-3">
+		  <div class="col-lg-2">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/200x100" alt="" src="img/Alexandre.jpeg" width="150">
+		      <h3>Alexandre Dos Santos</h3>
+		      <p>is developer of the Audio and other parts of the Web Application software 
+		      and works on the hardware for ATWSS.</p>
+		    </div>
+		  </div>
+		  
+		  <div class="col-lg-2">
 		    <div class="thumbnail">
 		      <img data-src="holder.js/200x100" alt="" src="img/Mark.jpeg" width="150">
 		      <h3>Mark D&ouml;nszelmann</h3>
@@ -33,12 +33,28 @@ slug: people
 		    </div>
 		  </div>
 		  
-		  <div class="col-lg-3">
+		  <div class="col-lg-2">
 		    <div class="thumbnail">
 		      <img data-src="holder.js/200x100" alt="" src="img/Dimi.jpeg" width="160">
 		      <h3>Dimitar Mladenov</h3>
 		      <p>is in charge of all the hardware on ATWSS. He also handles everything else we tend to forget...</p>
 		    </div>
+		  </div>
+		  
+		  <div class="col-lg-2">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/200x100" alt="" src="img/Christos.jpeg" width="150">
+		  	  <h3>Christos Papachristou</h3>
+		  	  <p></p>
+		  	</div>
+		  </div>
+		 
+		  <div class="col-lg-2">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/200x100" alt="" src="img/Lakshmi.jpeg" width="150">
+		  	  <h3>Lakshmi Prabha Nattamai Sekar</h3>
+		  	  <p></p>
+		  	</div>
 		  </div>
 
     </div>
