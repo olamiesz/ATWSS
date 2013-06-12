@@ -22,7 +22,17 @@ module Jekyll
       @interventiondata['title'] = ""
       @interventiondata['time'] = ""
       @interventiondata['dosimeters'] = '<a href="./dosimeters.php?InterventionID=' + name + '">Plots</a>'
-      @interventiondata['videos'] = base
+        
+      @@videos = []
+            
+      entries  = Dir.chdir(File.join(base, name)) { site.filter_entries(Dir['*.webm']) }
+         
+      entries.each do |f|
+          @@videos << File.join(dir, name, File.basename(f, '.webm'))
+      end
+           
+      @interventiondata['videos'] = @@videos
+        
     end
   end
 
@@ -39,7 +49,7 @@ module Jekyll
       entries  = Dir.chdir(base) { site.filter_entries(Dir['*']) }
 
       entries.each do |f|
-          intervention = Intervention.new(site, site.source, dir, f)
+          intervention = Intervention.new(site, base, dir, f)
           @@interventions << intervention.interventiondata
       end
     end
