@@ -8,7 +8,7 @@ markdown:     rdiscount
 # Server
 source:       ./docs
 destination:  ./_site
-exclude:      ['videos']
+exclude:      ['config', 'videos']
 
 port:         9001
 url:          http://localhost:9001
