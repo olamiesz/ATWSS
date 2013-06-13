@@ -13,6 +13,10 @@ yum install rubygems
 yum install gcc
 gem install jekyll
 
+== connecting to Oracle
+install oracle instance client including subdirectory 'sdk'
+env DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH RC_ARCHS=$RC_ARCHS /usr/bin/gem install ruby-oci8
+
 --
 jekyll build
 

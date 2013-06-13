@@ -1,3 +1,4 @@
+<!-- run as: php db-test.php -->
 <?php
 
 require_once('config/oracle.php');
