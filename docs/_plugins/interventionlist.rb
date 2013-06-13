@@ -29,8 +29,8 @@ module Jekyll
 # not very fast... we could get the full list into a hash
       conn = OCI8.new($conf['user'], $conf['password'], $conf['host'])
       conn.exec('select NAME, UNIX_START from view_interventions where ID='+name) do |row|
-        @interventiondata['title'] = row[0]
-        @interventiondata['time'] = row[1]
+        @interventiondata['title'] = row[0].gsub(' ', '&nbsp;')
+        @interventiondata['time'] = Time.at(row[1].to_i()).strftime('%a, %e %b %Y %k:%M').gsub(' ', '&nbsp;')
       end
 
         
