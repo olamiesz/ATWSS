@@ -52,13 +52,16 @@ module Jekyll
     @@interventions = []
 
     def self.create(site)
-      @@interventions = []
       dir = site.config['interventions_dir'] || 'videos'
       base = File.join(site.source, dir)
       return unless File.exists?(base)
 
+# Does not seem to work... 
+#      FileUtils.ln_s(base, File.join('_site', dir), :verbose => true)
+
       entries  = Dir.chdir(base) { site.filter_entries(Dir['*']) }
 
+      @@interventions = []
       entries.each do |f|
           intervention = Intervention.new(site, base, dir, f)
           @@interventions << intervention.interventiondata
