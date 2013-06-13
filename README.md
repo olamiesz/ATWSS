@@ -8,7 +8,7 @@ Rebuild the website:
 == Using Jekyl
 
 yum install ruby
-yum install ruby-devel
+yum install ruby-devel		(ruby-dev on ubuntu)
 yum install rubygems
 yum install gcc
 gem install jekyll
