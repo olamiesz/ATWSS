@@ -8,5 +8,6 @@
 web.config
 /Global.asax
 /videos
-/config
+/config/oracle.php
+/config/oracle.rb
 /_site
