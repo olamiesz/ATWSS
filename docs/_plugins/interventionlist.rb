@@ -57,7 +57,8 @@ module Jekyll
       return unless File.exists?(base)
 
 # Does not seem to work... 
-#      FileUtils.symlink(File.expand_path(dir), 'xxx', :verbose => true)
+      FileUtils.mkdir_p('_site', :verbose => true)
+      FileUtils.ln_sf('../videos', '_site/videos', :verbose => true)
 
       entries  = Dir.chdir(base) { site.filter_entries(Dir['*']) }
 
