@@ -9,6 +9,7 @@ markdown:     rdiscount
 source:       ./docs
 destination:  ./_site
 exclude:      ['config', 'videos']
+keep_files:   ['.git', '.svn', 'videos']
 
 port:         9001
 url:          http://localhost:9001
