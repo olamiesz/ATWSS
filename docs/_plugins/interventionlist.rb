@@ -57,7 +57,7 @@ module Jekyll
       return unless File.exists?(base)
 
 # Does not seem to work... 
-#      FileUtils.ln_s(base, File.join('_site', dir), :verbose => true)
+#      FileUtils.ln_s(dir, 'xxx', :verbose => true)
 
       entries  = Dir.chdir(base) { site.filter_entries(Dir['*']) }
 
