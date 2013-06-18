@@ -61,6 +61,7 @@ module Jekyll
       FileUtils.ln_sf('../videos', '_site/videos', :verbose => true)
 
       entries  = Dir.chdir(base) { site.filter_entries(Dir['*']) }
+      entries.sort!
 
       @@interventions = []
       entries.each do |f|
