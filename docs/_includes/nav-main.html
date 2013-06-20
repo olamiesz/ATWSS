@@ -21,16 +21,14 @@
               </li>
             -->
               <li{% if page.slug == "interface" %} class="active"{% endif %}>
-                <a href="/APVS/index.html">Interface</a>
+                <a href="/APVS/index.html">Interface <span class="glyphicon glyphicon-lock"></span></a>
               </li>
               <li{% if page.slug == "intervention" %} class="active"{% endif %}>
-                <a href="{{ page.dir }}/interventions">Interventions</a>
+                <a href="{{ page.dir }}/interventions">Interventions <span class="glyphicon glyphicon-lock"></span></a>
               </li>
               <li{% if page.slug == "dosimeters" %} class="active"{% endif %}>
                 <a class="dropdown-toggle" data-toggle="dropdown" href="{{ page.dir }}/dosimeters#">
-                Dosimeters
-				  <b class="caret"></b>
-				</a>
+                Dosimeters<b class="caret"></b> <span class="glyphicon glyphicon-lock"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="{{ page.dir }}/dosimeters">Today (all)</a></li>
                   <li><a href="{{ page.dir }}/dosimeters?InterventionID=1">Intervention 1</a></li>
