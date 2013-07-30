@@ -6,9 +6,8 @@ Atlas Wireless Safety System (website)
 Rebuild the website:
 
 == checkout bootstrap in parallel
-git clone https://github.com/twitter/bootstrap.git
-cd boostrap
-git checkout 3.0.0-wip
+git clone https://github.com/twbs/bootstrap.git
+cd bootstrap
 
 == Using Jekyl
 
@@ -34,6 +33,6 @@ ruby -rubygems db-test.rb
 
 == build website
 jekyll build
-
+(result in _site)
 
 Mark Donszelmann

@@ -58,7 +58,7 @@ module Jekyll
 
 # Does not seem to work... 
       FileUtils.mkdir_p('_site', :verbose => true)
-      FileUtils.ln_sf('../videos', '_site/videos', :verbose => true)
+      FileUtils.ln_sf('../videos', '_site/', :verbose => true)
 
       entries  = Dir.chdir(base) { site.filter_entries(Dir['*']) }
       entries.sort!

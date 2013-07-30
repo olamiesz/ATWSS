@@ -49,15 +49,6 @@ dir: ..
 		  	  <p></p>
 		  	</div>
 		  </div>
-		 
-		  <div class="col-lg-2">
-		    <div class="thumbnail">
-		      <img alt="" src="img/Lakshmi.jpg" width="150">
-		  	  <h3>Lakshmi Prabha Nattamai Sekar</h3>
-		  	  <p></p>
-		  	</div>
-		  </div>
-
     </div>
 
     <div class="row">
@@ -82,7 +73,7 @@ dir: ..
 		    </div>
 		  </div>
 
-		  <div class="col-lg-3">
+		  <div class="col-lg-2">
 		    <div class="thumbnail">
 		      <img alt="" src="img/Novocaptis.png" width="178">
 		      <h3>Novocaptis</h3>
@@ -91,7 +82,7 @@ dir: ..
 		    </div>
 		  </div>
 
-		  <div class="col-lg-3">
+		  <div class="col-lg-2">
 		    <div class="thumbnail">
 		      <img alt="" src="img/Prisma.png" width="192">
 		      <h3>Prisma</h3>
