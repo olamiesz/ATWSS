@@ -10,6 +10,7 @@ git clone https://github.com/twbs/bootstrap.git
 cd bootstrap
 
 == Using Jekyl
+(ruby > 2.0)
 
 yum install ruby
 yum install ruby-devel		(ruby-dev on ubuntu)

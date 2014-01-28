@@ -7,7 +7,7 @@
 # Example:
 # {% interventionlist my_template.html %}
 require 'oci8'
-require 'config/oracle.rb'
+require_relative '../../config/oracle.rb'
 
 module Jekyll
 
