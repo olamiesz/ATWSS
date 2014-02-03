@@ -5,10 +5,6 @@ Atlas Wireless Safety System (website)
 
 Rebuild the website:
 
-== checkout bootstrap in parallel
-git clone https://github.com/twbs/bootstrap.git
-cd bootstrap
-
 == Using Jekyl
 (ruby > 2.0)
 
