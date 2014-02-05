@@ -30,6 +30,14 @@ ruby -rubygems db-test.rb
 
 == build website
 jekyll build
-(result in _site)
+(result in _site, _site/cern is protected)
+
+== deploy to CERN
+mount smb://cerndataweb.cern.ch/W-ATWSS$ (inside cern)
+./deploy.sh (copies _site to W-ATWSS)
+
+== note
+- do not touch web.config files in W-ATWSS
+- do not uncomment .htaccess in cern, otherwise directory becomes unreadable
 
 Mark Donszelmann
