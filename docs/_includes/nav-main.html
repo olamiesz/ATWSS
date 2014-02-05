@@ -8,41 +8,45 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="{{ page.dir }}/index.php"><img src="{{ page.dir }}/img/favicon.png">ATWSS</a>
+          <a class="navbar-brand" href="index.php"><img src="img/favicon.png">ATWSS</a>
 
-          <div class="navbar-collapse collapse navbar-responsive-collapse">
+          <div class="collapse navbar-collapse collapse">
             <ul class="nav navbar-nav">
             <!--
               <li{% if page.slug == "introduction" %} class="active"{% endif %}>
-                <a href="{{ page.dir }}/introduction">Introduction</a>
+                <a href="introduction.php">Introduction</a>
               </li>
               <li{% if page.slug == "equipment" %} class="active"{% endif %}>
-                <a href="{{ page.dir }}/equipment">Equipment</a>
+                <a href="equipment.php">Equipment</a>
               </li>
             -->
+	    <!--
               <li{% if page.slug == "interface" %} class="active"{% endif %}>
                 <a href="/APVS/index.html">Interface <span class="glyphicon glyphicon-lock"></span></a>
               </li>
-              <li{% if page.slug == "intervention" %} class="active"{% endif %}>
-                <a href="{{ page.dir }}/interventions">Interventions <span class="glyphicon glyphicon-lock"></span></a>
+            -->
+	      <li{% if page.slug == "intervention" %} class="active"{% endif %}>
+                <a href="interventions.php">Interventions <span class="glyphicon glyphicon-lock"></span></a>
               </li>
-              <li{% if page.slug == "dosimeters" %} class="active"{% endif %}>
-                <a class="dropdown-toggle" data-toggle="dropdown" href="{{ page.dir }}/dosimeters#">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 Dosimeters<b class="caret"></b> <span class="glyphicon glyphicon-lock"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="{{ page.dir }}/dosimeters">Today (all)</a></li>
-                  <li><a href="{{ page.dir }}/dosimeters?InterventionID=1">Intervention 1</a></li>
-                  <li><a href="{{ page.dir }}/dosimeters?InterventionID=2">Intervention 2</a></li>
-                  <li><a href="{{ page.dir }}/dosimeters?InterventionID=3">Intervention 3</a></li>
-                  <li><a href="{{ page.dir }}/dosimeters?InterventionID=4">Intervention 4</a></li>
-                  <li><a href="{{ page.dir }}/dosimeters?InterventionID=5">Intervention 5</a></li>
-                  <li><a href="{{ page.dir }}/dosimeters?InterventionID=6">Intervention 6</a></li>
-                  <li><a href="{{ page.dir }}/dosimeters?InterventionID=7">Intervention 7</a></li>
-                  <li><a href="http://dimi.com">Good Old 'dimi.com'</a></li>
+                  <li><a href="dosimeters.php">Today (all)</a></li>
+	          <li class="divider"></li>
+                  <li><a href="dosimeters.php?InterventionID=1">Intervention 1</a></li>
+                  <li><a href="dosimeters.php?InterventionID=2">Intervention 2</a></li>
+                  <li><a href="dosimeters.php?InterventionID=3">Intervention 3</a></li>
+                  <li><a href="dosimeters.php?InterventionID=4">Intervention 4</a></li>
+                  <li><a href="dosimeters.php?InterventionID=5">Intervention 5</a></li>
+                  <li><a href="dosimeters.php?InterventionID=6">Intervention 6</a></li>
+                  <li><a href="dosimeters.php?InterventionID=7">Intervention 7</a></li>
+                  <li class="divider"></li>
+		  <li><a href="http://dimi.com">Good Old 'dimi.com'</a></li>
                 </ul>
               </li>
               <li{% if page.slug == "people" %} class="active"{% endif %}>
-                <a href="{{ page.dir }}/people">People</a>
+                <a href="people.php">People</a>
               </li>
             </ul>
 	    <ul class="nav navbar-nav pull-right">

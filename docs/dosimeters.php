@@ -3,7 +3,7 @@ layout: default
 title: Dosimeters
 lead: Recorded dosimeter values of interventions in ATLAS
 slug: dosimeters
-dir: ..
+dir: .
 ---
 
 	<?php readfile('https://atlas.web.cern.ch/Atlas/TCOORD/CavCom/plot.php'.
