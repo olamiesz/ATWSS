@@ -52,13 +52,13 @@ module Jekyll
     @@interventions = []
 
     def self.create(site)
-      dir = site.config['interventions_dir'] || 'videos'
+      dir = site.config['interventions_dir'] || '../videos'
       base = File.join(site.source, dir)
       return unless File.exists?(base)
 
 # Does not seem to work... 
-      FileUtils.mkdir_p('_site', :verbose => true)
-      FileUtils.ln_sf('../videos', '_site/', :verbose => true)
+      FileUtils.mkdir_p('_site/cern', :verbose => true)
+      FileUtils.ln_sf('../../videos', '_site/cern', :verbose => true)
 
       entries  = Dir.chdir(base) { site.filter_entries(Dir['*']) }
       entries.sort!

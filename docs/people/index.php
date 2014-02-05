@@ -3,7 +3,7 @@ layout: default
 title: People
 lead: People and Companies working on ATWSS
 slug: people
-dir: .
+dir: ..
 ---
 
     <div class="row">
