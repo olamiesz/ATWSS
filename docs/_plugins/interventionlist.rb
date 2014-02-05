@@ -24,7 +24,7 @@ module Jekyll
       @interventiondata['name'] = name
       @interventiondata['title'] = ""
       @interventiondata['time'] = ""
-      @interventiondata['dosimeters'] = '<a href="../dosimeters?InterventionID=' + name + '">Plots</a>'
+      @interventiondata['dosimeters'] = '<a href="dosimeters.php?InterventionID=' + name + '">Plots</a>'
 
 # not very fast... we could get the full list into a hash
       conn = OCI8.new($conf['user'], $conf['password'], $conf['host'])
@@ -39,7 +39,7 @@ module Jekyll
       entries  = Dir.chdir(File.join(base, name)) { site.filter_entries(Dir['*.webm']) }
          
       entries.each do |f|
-          @@videos << File.join("..", dir, name, File.basename(f, '.webm'))
+          @@videos << File.join(dir, name, File.basename(f, '.webm'))
       end
            
       @interventiondata['videos'] = @@videos
