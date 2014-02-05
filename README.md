@@ -1,7 +1,7 @@
 ATWSS
 =====
 
-[atwss.cern.ch][Atlas Wireless Safety System (website)]
+[Atlas Wireless Safety System (website)](atwss.cern.ch)
 
 Rebuild the website:
 
