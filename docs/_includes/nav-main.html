@@ -48,9 +48,13 @@
               <li{% if page.slug == "people" %} class="active"{% endif %}>
                 <a href="{{ page.dir }}/people">People</a>
               </li>
-              <li{% if page.slug == "group" %} class="active"{% endif %}>
-                <a href="{{ page.dir }}/group">Group <span class="glyphicon glyphicon-lock"></span></a>
-              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Group<b class="caret"></b> <span class="glyphicon glyphicon-lock"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ page.dir }}/group/phase3.html">Phase III Q/A</a></li>
+                  <li><a href="{{ page.dir }}/group/software.html">Software</a></li>
+                </ul>
             </ul>
 	    <ul class="nav navbar-nav pull-right">
 <!--
