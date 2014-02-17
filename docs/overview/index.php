@@ -10,8 +10,20 @@ dir: ..
 		<div class="col-md-12 column">
 			<div class="row clearfix">
 				<div class="col-md-5 column">
+                    <h3>Project</h3>
+                    <p>The ATLAS Wireless Safety System is designed and used to help workers
+                    in the cavern of the <a href="http://www.cern.ch/atlas">ATLAS experiment</a> at 
+                    <a href="http://www.cern.ch">CERN</a> to execute their maintenance tasks. 
+                    As these tasks can be
+                    difficult and as there may be some radiation levels, the worker may need to execute 
+                    the task as fast as possible.<p>
+                    <p>In its initial phase the ATWSS system will just monitor the execution of tasks done
+                    by the user. In a later phase ATWSS will be extended to use augmented reality to guide
+                    the worker with on-the-fly instructions on what he needs to do. This phase is
+                    part of the <a href="http://www.cern.ch/edusafe">EDUSAFE</a> programme.</p>
+                    
                     <h3>System</h3>
-                    <p>The ATLAS Wireless Safety System consists of a Camera with headlights,
+                    <p>The System consists of a Camera with headlights,
                     a Communication box (PTU) and a separate Radiation monitor, 
                     all shown worn by the worker in the picture. The three items communicate with
                     eachother and with a server, via wireless network, 
@@ -40,7 +52,7 @@ dir: ..
                     for playback later on. The server also provides a "live" feed to the User Interface.</p>
 				</div>
 			</div>
-			<div class="row clearfix" style="margin-top: 25px;">
+			<div class="row clearfix" style="margin-top: 25px;margin-bottom: 25px;">
 				<div class="col-md-5 column">
                     <h3>User Interface</h3>
                     <p>The User Interface is a Web Application, which runs both on a desktop or on a mobile device
