@@ -25,12 +25,12 @@
                 <a href="/APVS/index.html">Interface <span class="glyphicon glyphicon-lock"></span></a>
               </li>
             -->
-	      <li{% if page.slug == "intervention" %} class="active"{% endif %}>
-                <a href="{{ page.dir }}/cern/interventions">Interventions <span class="glyphicon glyphicon-lock"></span></a>
+	          <li{% if page.slug == "interventions" %} class="active"{% endif %}>
+                <a href="{{ page.dir }}/cern/interventions">Interventions <span class="fa fa-lock"></span></a>
               </li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Dosimeters<b class="caret"></b> <span class="glyphicon glyphicon-lock"></span></a>
+                Dosimeters<span class="fa fa-caret-down"></b> <span class="fa fa-lock"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="{{ page.dir }}/cern/dosimeters">Today (all)</a></li>
 	          <li class="divider"></li>
@@ -50,7 +50,7 @@
               </li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Group<b class="caret"></b> <span class="glyphicon glyphicon-lock"></span></a>
+                Group<span class="fa fa-caret-down"></span> <span class="fa fa-lock"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="{{ page.dir }}/group/phase3.html">Phase III Q/A</a></li>
                   <li><a href="{{ page.dir }}/group/software.html">Software</a></li>
