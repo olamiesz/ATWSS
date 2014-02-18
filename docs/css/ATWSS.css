@@ -1,3 +1,31 @@
+body>.navbar .navbar-brand {
+	color: #999999;
+	margin-left: 0px;
+	padding: 10px 20px;
+	line-height: 32px;
+}
+
+body>.navbar .navbar-brand img {
+	margin-right: 10px;
+}
+
+.footer {
+	margin-top: 0;
+	background-color: #D0D0D0;
+	border-top: 1px solid #C0C0C0;
+	padding: 10px 0;
+	text-align: right;
+}
+
+.footer-links {
+	margin: 0;
+}
+
+.thumbnail {
+    border: 0px;
+	margin-bottom: 20px;	
+}
+
 /* Body and structure
 -------------------------------------------------- */
 body {
@@ -9,49 +37,6 @@ body {
 h3 code {
 	font-size: 14px;
 	font-weight: normal;
-}
-
-/* Tweak navbar brand link to be super sleek
--------------------------------------------------- */
-body>.navbar {
-	font-size: 13px;
-}
-
-body>.navbar .navbar-brand {
-	color: #999999;
-	float: left;
-	font-weight: 200;
-	margin-left: 0px;
-	padding: 10px 20px;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px
-		rgba(255, 255, 255, 0.125);
-	transition: all 0.2s linear 0s;
-	line-height: 32px;
-}
-
-body>.navbar .navbar-brand img {
-	margin-right: 10px;
-}
-
-body>.navbar li {
-	font-size: 16px;
-	line-height: 32px;
-}
-
-body>.navbar .brand:hover {
-	text-decoration: none;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px
-		rgba(255, 255, 255, .4);
-}
-
-.nav .caret {
-    border-bottom-color: #999999;
-    border-top-color: #999999;
-}
-
-.nav a:hover .caret {
-    border-bottom-color: #FFFFFF;
-    border-top-color: #FFFFFF;
 }
 
 /* Jumbotrons
@@ -180,7 +165,6 @@ body>.navbar .brand:hover {
 ------------------------- */
 .subhead {
 	text-align: left;
-	border-bottom: 1px solid #ddd;
 }
 
 .subhead h1 {
@@ -195,18 +179,3 @@ body>.navbar .brand:hover {
 	display: none;
 }
 
-.footer {
-	margin-top: 0;
-	background-color: #D0D0D0;
-	border-top: 1px solid #C0C0C0;
-	padding: 10px 0;
-	text-align: right;
-}
-
-.footer-links {
-	margin: 0;
-}
-
-.thumbnail {
-	margin-bottom: 20px;	
-}
