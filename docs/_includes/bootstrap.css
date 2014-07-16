@@ -24,12 +24,12 @@ footer,
 header,
 hgroup,
 main,
-/*nav,*/
+nav,
 section,
 summary {
   display: block;
 }
-nav {
+.container  ul{
   display: inline;
 }
 audio,
