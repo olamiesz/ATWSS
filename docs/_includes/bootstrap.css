@@ -29,9 +29,7 @@ section,
 summary {
   display: block;
 }
-.container  ul{
-  display: inline;
-}
+
 audio,
 canvas,
 progress,
