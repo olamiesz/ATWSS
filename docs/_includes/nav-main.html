@@ -25,6 +25,9 @@
               			<li{% if page.slug == "overview" %} class="active"{% endif %}>
                 			<a href="{{ page.dir }}/overview">Overview</a>
               			</li>
+              			<li{% if page.slug == "camera view and plots" %} class="active"{% endif %}>
+              				<a href="{{ page.dir }}/CameraView">Camera View</a>
+              			</li>
 <!--
               <li{% if page.slug == "equipment" %} class="active"{% endif %}>
                 <a href="{{ page.dir }}/equipment">Equipment</a>
@@ -90,14 +93,14 @@
               			<li{% if page.slug == "atlas" %} class="active"{% endif %}>
                 			<a href="{{ page.dir }}/atlas">ATLAS</a>
               			</li>
-              			<li  >
-              				
-              			</li>
-              		</ul>
-              		<form class="navbar-form navbar-left">
-				<input class="form-control col-lg-8" placeholder="Search" type="text">
+              			<li>
+      			        	<form class="navbar-form navbar-left">
+					<input class="form-control col-lg-8" placeholder="Search" type="text">
+				</li>
 			</form>
 <!--
+              		</ul>
+
 	      <?php
   		if (isset($_SERVER['ADFS_FULLNAME'])) {
 		    echo "<li><a href=\"#\">".$_SERVER['ADFS_FULLNAME']."</a></li>";
