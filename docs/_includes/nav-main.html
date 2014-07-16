@@ -57,7 +57,7 @@
             		</ul>
 	    		<ul class="nav navbar-nav pull-right">
 	    			<li class="dropdown">
-		                	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+		                	<a href="{{page.dir}}/cern" class="dropdown-toggle" data-toggle="dropdown" href="#">
                 			CERN <span class="fa fa-caret-down"></b> <span class="fa fa-lock"></span></a>
                 			<ul class="dropdown-menu">
                   				 <li><a href="#1" data-toggle="tab">About CERN</a></li>
@@ -74,6 +74,9 @@
 						<li class="divider"></li>
 						<li><a href="#8" data-toggle="tab">LHCb</a></li>
                 			</ul>
+              			</li>
+              			<li{% if page.slug == "atlas" %} class="active"{% endif %}>
+                			<a href="{{ page.dir }}/atlas">ATLAS</a>
               			</li>
 <!--
 	      <?php
